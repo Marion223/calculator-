@@ -1,43 +1,43 @@
-{
-   margin:0;
+*{
+margin:0;
 padding:0;
 box-sizing: border-box;
 
 }
 html{
-    font-family: 'Courier New', Courier, monospace, "noto sans," Arial, Helvetica, sans-self;
+    font-family: "Roboto","Noto Sans", "Helvetica", sans-serif;
     font-size: 14px;
     background-color: #3498db;
     height: 100%;
-    
+}
 
-    .calculator{
+.calculator{
         width: 350px;
         height: auto;
-        margin: 70mx auto 0;
+        margin: 70px auto 0;
         overflow: hidden;
-        box-shadow: 4px 4px rgba(0, 0, 0, 0) ;
-    }
-      .calculator span{
-          -moz-user-select: none;
-          user-select: none;
+        box-shadow: 4px 4px rgba(0, 0, 0, 0.2) ;
+}
+.calculator span{
+     -moz-user-select: none;
+      user-select: none;
+}
 
-      }
+.top{
+    position: relative;
+    height: 150px;
+    background-color: white;
+}
 
-      .top{
-          position: relative;
-          height: 150px;
-          background-color: white;
-      }
-          top.unit.{
-            text-transform: uppercase;
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            font-weight: 700;
-            color: #757575;
+.top .unit{
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: 700;
+     color: #757575;
 
-          }
+}
           .top.screen{
             position:relative;
             width: 100%;
@@ -74,16 +74,16 @@ html{
            .keys{ 
                 width: 80%;
            }
-           .keys.column{
+           .keys .column{
                 display: flex;
                 flex-grow: 1;
            }
-           .keys.column, .operators{
+           .keys .column, .operators{
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
            }
-           .keys.column span, .operators span{
+           .keys .column span, .operators span {
                 position: relative;
                 overflow: hidden;
                 flex-grow: 1;
@@ -93,20 +93,21 @@ html{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                transform: background-color 0.5s;                                                   
-           
-                .keys .keys.column span{
+                transition: background-color 0.5s;                                                 
+           }
+                .keys .column span{
                     font-size: 25px;
-
-                    keys.colum:hover, .operators span:hover{
-                        background-color: rgba 0, 0, 0, 0.2);
+                }
+                .keys .column:hover, .operators span:hover{
+                        background-color: rgba(0, 0, 0, 0.2);
                     }
+
                     .operators{
                         width: 20%;
                         font-size: 18px;
                         background-color: #434343;
                     }
-                    . delete{
+                    .delete{
                          font-size: 16px;
                          text-transform: uppercase;
                     }
@@ -116,32 +117,9 @@ html{
                          width: 100%;
                          position: absolute;
                          bottom: 20px;
-                         margin: 0%auto;
+                         margin: 0 auto;
                        
                     }
-                    .credit a, .error}
+                    .credit a, .error{
                          color: #c2185b;
-                
-                }
-                
-
-
-
-
-        
-              
-  
-    
-
-    
-
-
-
-
-
-
-
-
-
-
-}
+                    }               
