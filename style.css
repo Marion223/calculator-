@@ -38,19 +38,18 @@ html{
      color: #757575;
 
 }
-          .top.screen{
-            position:relative;
-            width: 100%;
-            top: 20%;
-            height: 80%;
-
-          }
-           .screen > div{
-               display: flex;
-               align-items: center;
-               justify-content: flex-end;
-               width: 100%;
-               padding: 5px;
+.top.screen{
+ position:relative;
+width: 100%;
+top: 20%;
+height: 80%;
+}
+.screen > div{
+display: flex;
+align-items: center;
+justify-content: flex-end;
+width: 100%;
+padding: 5px;
                text-align: right;
             
            }
@@ -69,13 +68,13 @@ html{
                position: relative;
                height: 100%;
                float: left;
-               display: flex;
+display: flex;
            }
            .keys{ 
                 width: 80%;
            }
            .keys .column{
-                display: flex;
+     display: flex;
                 flex-grow: 1;
            }
            .keys .column, .operators{
@@ -90,7 +89,7 @@ html{
                 width: 100%;
                 line-height: 1;
                 padding: 10px;
-                display: flex;
+                 display: flex;
                 justify-content: center;
                 align-items: center;
                 transition: background-color 0.5s;                                                 
@@ -112,7 +111,7 @@ html{
                          text-transform: uppercase;
                     }
                     .credit{
-                         display: block;
+          display: block;
                          text-align: center;
                          width: 100%;
                          position: absolute;
